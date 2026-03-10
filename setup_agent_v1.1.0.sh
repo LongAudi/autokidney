@@ -196,7 +196,7 @@ generate_docker_compose() {
     cat > "${APP_DIR}/docker-compose.yml" <<EOF
 services:
   app:
-    image: harbor.rainscales.com/autokidney/edge:latest
+    image: \${EDGE_IMAGE}
     container_name: healthcare-edge-app
     privileged: true
     network_mode: "host"
