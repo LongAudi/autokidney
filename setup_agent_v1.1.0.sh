@@ -2,7 +2,8 @@
 #!/bin/bash
 
 # setup_agent.sh - Edge Controller Installation Script (Docker Compose + Auto-Install Docker)
-# Usage: sudo bash setup_agent.sh
+# Usage: sudo curl -sSL https://raw.githubusercontent.com/LongAudi/autokidney/master/setup_agent_v1.1.0.sh -o setup_agent.sh && sudo bash setup_agent.sh
+
 
 set -e
 
